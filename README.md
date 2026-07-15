@@ -7,8 +7,6 @@
 
 A security scanning CLI for **React** and **Next.js** projects. Run one command at the root of any project and get a full security report.
 
-Developed by **Pruthvi Darji**
-
 ---
 
 ## Why not just `npm audit`?
@@ -292,6 +290,10 @@ web-secure-verify scan
 
 ---
 
+## Author
+
+**Pruthvi Darji**
+
 ## License
 
-MIT — Developed by **Pruthvi Darji**
+MIT
