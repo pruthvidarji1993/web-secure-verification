@@ -1,0 +1,70 @@
+{
+  "name": "web-secure-verification",
+  "version": "1.0.1",
+  "description": "Security scanning CLI for React and Next.js — detects CVEs, secrets, license risks, supply chain threats, hydration bugs, RSC boundary violations, and more.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "web-secure-verify": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "dev": "ts-node src/cli.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "security",
+    "scanner",
+    "react",
+    "nextjs",
+    "next.js",
+    "react-security",
+    "nextjs-security",
+    "vulnerability",
+    "audit",
+    "cve",
+    "secrets",
+    "secret-detection",
+    "supply-chain",
+    "sast",
+    "owasp",
+    "license-compliance",
+    "hydration",
+    "rsc",
+    "server-components",
+    "bundle-size",
+    "source-maps",
+    "cli",
+    "devtools",
+    "devsecops"
+  ],
+  "author": "Pruthvi D <pruthvid@zignuts.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/pruthvidarji1993/web-secure-verification#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pruthvidarji1993/web-secure-verification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pruthvidarji1993/web-secure-verification/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "glob": "^13.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.2"
+  }
+}
